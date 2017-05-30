@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pityu.cinemaarta.ContactDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/HeaderImage"
+                    android:src="@drawable/cinemaarta_night2" />
+
+                <TextView
+                    android:id="@+id/marqueText"
+                    style="@style/MarqueeText"
+                    android:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/cinemaInside"
+                        style="@style/CinemaInside"
+                        android:src="@drawable/cinema_arta_inside_edited" />
+
+                    <TextView
+                        android:id="@+id/openingHours"
+                        style="@style/OpeningHours"
+                        android:text="@string/openingHours" />
+
+                    <TextView
+                        android:id="@+id/address"
+                        style="@style/Address"
+                        android:text="@string/address" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/callicon"
+                        style="@style/ContactIcons"
+                        android:src="@drawable/ic_call_black_24dp" />
+
+                    <ImageView
+                        android:id="@+id/makereservation"
+                        style="@style/ContactIcons"
+                        android:src="@drawable/reservation_calendar_icon" />
+
+                    <ImageView
+                        android:id="@+id/googleplus"
+                        style="@style/ContactIcons"
+                        android:src="@drawable/gplus_black_24dp" />
+
+                    <ImageView
+                        android:id="@+id/facebookpage"
+                        style="@style/ContactIcons"
+                        android:src="@drawable/facebook_black_24dp" />
+
+                    <ImageView
+                        android:id="@+id/twitterpage"
+                        style="@style/ContactIcons"
+                        android:src="@drawable/twitter_black_24dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

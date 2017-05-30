@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cinema Arta</string>
+    <string name="welcomeText">Welcome to Cinema Arta!</string>
+    <string name="marqueTextData">Book your tickets, use the contact details below. *  The greatest movies on this week: Moonlight --- Ghost in the shell --- Fast &amp; Furious 8</string>
+    <string name="openingHours">Opening hours: \n daily between 16 - 22</string>
+    <string name="openingHoursLandscape">Opening hours: daily between 16 - 22</string>
+    <string name="address">Address: Korosi Csoma Sandor, no. 10, Sfantu Gheorghe 520009, RO</string>
+</resources>
